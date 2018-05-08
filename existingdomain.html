@@ -34,7 +34,7 @@
 <div align="right">
 </div>
 
-<br>
+<br><br>
 
 <h7>Using an Existing Website Name:</h7>
 
@@ -47,23 +47,33 @@
 <h7>If You Feel Comfortable Doing This:</h7>
 
 <p>
-	First you need to login to whatever website you pay for the domain name, this might be Dream Host, Godaddy, Google Domains etc. Once your logged in you need to go into the section where you can manage your domain names and then click on any section lebelled with DNS.
+	First you need to login to whatever website you pay for the domain name, this might be Dream Host, Godaddy, Google Domains etc. Once you're logged in you need to go into the section where you can manage your domain names and then click on any section lebelled with DNS or DNS Management.
 </p>
 
 <p>
-  Once you're in the DNS Management section for your domain name find the Records section and add two neew A Records. Also you'll want to delete any existing A Records.
+  Once you're in the DNS Management section for your domain name find the Records section and add two new A Records and one new CNAME. Also you'll want to delete any existing A Records and CNAME's. And that's it! I can take care of the rest.
 </p>
 
 <p>
-  A Records you'll need to add:
+  A Records you'll need to add (delete any other A Records):
 </p>
 
 <ol>
     <li>
-      @ 192.30.252.153
+      &nbsp;Name: "@"&nbsp;&nbsp; Value: "192.30.252.153"
     </li>
     <li>
-      @ 192.30.252.154
+      &nbsp;Name: "@"&nbsp;&nbsp; Value: "192.30.252.154"
+    </li>
+</ol>
+
+<p>
+  CNAME you'll need to add (delete any other CNAME's):
+</p>
+
+<ol>
+    <li>
+      &nbsp;Name: "www"&nbsp;&nbsp; Value: "@"
     </li>
 </ol>
 
@@ -74,6 +84,8 @@
 <p>
   Again if this feels like it's going to be a pain don't hesitate to let me handle it. It'll take me all of two minutes. All I need is your login info (username / password) for the website your domain name is registered with. I won't need continued access so we can reset your password immediately afterwords.
 </p>
+
+<br>
 
 <!-- <p>
   CNAME you'll need to add:
