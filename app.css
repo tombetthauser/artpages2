@@ -1,3 +1,15 @@
+form {
+  white-space: nowrap;
+}
+
+i {
+  opacity: .6;
+}
+
+hr {
+  opacity: .15;
+}
+
 img {
 	width: 100%;
 }
@@ -144,7 +156,7 @@ font-size: 1.2em;
       div#Seite {
 
 
-    
+display: block;
 margin: 0 ;
 border:none;
 padding:1.5em;
