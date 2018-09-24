@@ -42,12 +42,14 @@ a {
   color: #444;
 }
 
-#container-01 {
+#container-01 { 
+  width: 90%; 
   max-width: 450px;  
   margin: 1.5em auto; 
 }
 
 #container-02 {
+  width: 90%; 
   max-width: 450px;  
   margin: 0 auto; 
 }
@@ -56,6 +58,7 @@ a {
 }
 
 #container-03{
+  width: 90%; 
   max-width: 450px;  
   margin: 0 auto; 
 }
@@ -95,13 +98,16 @@ a {
 #img-02 {
   display: block;
   margin: 2.5em auto 0;
-  max-width: 250px;
+  width: 75%;
+  max-width: 18em;
 }
 
 #img-03 {
   display: block;
   margin: -1em auto 0 auto;
-  max-width: 350px;
+  padding-right: 1em;
+  width: 100%;
+  max-width: 28em;
 }
 
 #img-04 {
