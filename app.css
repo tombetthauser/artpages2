@@ -43,22 +43,19 @@ a {
 }
 
 #container-01 { 
-  width: 90%; 
+  width: 85%; 
   max-width: 450px;  
   margin: 1.5em auto; 
 }
 
 #container-02 {
-  width: 90%; 
+  width: 85%; 
   max-width: 450px;  
   margin: 0 auto; 
 }
 
-#container-02 a {
-}
-
 #container-03{
-  width: 90%; 
+  width: 85%; 
   max-width: 450px;  
   margin: 0 auto; 
 }
@@ -107,7 +104,7 @@ a {
   margin: -1em auto 0 auto;
   padding-right: 1em;
   width: 100%;
-  max-width: 28em;
+  max-width: 27em;
 }
 
 #img-04 {
