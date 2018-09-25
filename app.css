@@ -134,16 +134,9 @@ a {
   opacity: .8;
 }
 
-#mc_embed_signup {
-  text-align: right;
-  width: 255px;
-  margin: 0 auto;
-  line-height: 2em;
-}
-
-#submit-div {
+/*#submit-div {
   color: red;
-}
+}*/
 
 #submit-btn {
   color: #fff;
@@ -182,4 +175,18 @@ a {
 
 .link-x:hover {
   cursor: not-allowed;
+}
+
+.text-field {
+}
+
+#mce-EMAIL {
+  width: 14em;
+}
+
+#mc_embed_signup {
+  text-align: center;
+/*  width: 255px;
+  margin: 0 auto;*/
+  line-height: 2em;
 }
